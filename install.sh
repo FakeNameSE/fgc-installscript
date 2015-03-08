@@ -158,6 +158,7 @@ if [ $(lsb_release -rs) = '14.04' ]; then
 	    apt-get -y install kdewallpapers
 	    apt-get -y install kubuntu-restricted-extras
 	    apt-get -y autoremove muon muon-updater muon-discover
+	    echo "* Customizing Trusty-Kubuntu settings."
 	fi
 
 	# Xubuntu 14.04 Specific Packages
